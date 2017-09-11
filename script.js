@@ -21,5 +21,4 @@ const tick = function() {
 `;
 };
 
-// setInterval(tick, 500);
-setTimeout(tick, 1000);
+setInterval(tick, 500);
