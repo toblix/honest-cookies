@@ -1,0 +1,13 @@
+#honest-cookies {
+	position:absolute;
+	left:0;
+	top:17%;
+	width:100%;
+	text-align:center;
+	z-index:200;
+	background:#000;
+	background:rgba(0,0,0,0.4);
+	padding:2px 0;
+	font-size: 90%;
+	line-height: 15px;
+}
