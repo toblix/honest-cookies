@@ -37,7 +37,7 @@ copyStatsLink.onclick = e=> {
 	tmpElem.style.top = '-1000px';
 	tmpElem.style.userSelect = 'auto';
 	tmpElem.innerText = `
-	Cookies baked (all time): ${Beautify(Game.cookiesEarned)}
+	Cookies baked (all time): ${Beautify(Game.cookiesEarned+Game.cookiesReset)}
 	Prestige level: ${Beautify(Game.prestige)}
 	Heavenly chips: ${Beautify(ascendNowToGet)}
 	Run started: ${startDate} ago
